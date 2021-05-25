@@ -1,6 +1,4 @@
 import {
-  Button,
-  ButtonGroup,
   Container,
   Form,
   FormGroup,
@@ -96,19 +94,7 @@ function App() {
             icon="tags"
             placeholder="New Transaction"
           />
-          <FormInput
-            width={3}
-            label="Value"
-            icon="dollar"
-            placeholder="100.00"
-            iconPosition="left"
-          />
         </FormGroup>
-        <ButtonGroup style={{ marginTop: 20 }}>
-          <Button>Cancel</Button>
-          <Button.Or />
-          <Button primary>Ok</Button>
-        </ButtonGroup>
       </Form>
     </Container>
   );

@@ -104,7 +104,7 @@ function App() {
             iconPosition="left"
           />
         </FormGroup>
-        <ButtonGroup style={{ marginTop: 20 }}>
+        <ButtonGroup style={{ marginTop: "10" }}>
           <Button>Cancel</Button>
           <Button.Or />
           <Button primary>Ok</Button>

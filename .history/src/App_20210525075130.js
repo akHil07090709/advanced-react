@@ -1,10 +1,5 @@
 import {
-  Button,
-  ButtonGroup,
   Container,
-  Form,
-  FormGroup,
-  FormInput,
   Grid,
   Header,
   Icon,
@@ -53,8 +48,8 @@ function App() {
               $200.00
             </Grid.Column>
             <Grid.Column width={3}>
-              <Icon name="edit" bordered color="red" />
-              <Icon name="trash" color="red" />
+              <Icon name="edit" bordered />
+              <Icon name="trash" />
             </Grid.Column>
           </Grid.Row>
         </Grid>
@@ -87,29 +82,6 @@ function App() {
           </Grid.Row>
         </Grid>
       </Segment>
-      <Header as="h3">Add New Transaction</Header>
-      <Form unstackable>
-        <FormGroup>
-          <FormInput
-            width={12}
-            label="Description"
-            icon="tags"
-            placeholder="New Transaction"
-          />
-          <FormInput
-            width={3}
-            label="Value"
-            icon="dollar"
-            placeholder="100.00"
-            iconPosition="left"
-          />
-        </FormGroup>
-        <ButtonGroup style={{ marginTop: 20 }}>
-          <Button>Cancel</Button>
-          <Button.Or />
-          <Button primary>Ok</Button>
-        </ButtonGroup>
-      </Form>
     </Container>
   );
 }

@@ -1,6 +1,4 @@
 import {
-  Button,
-  ButtonGroup,
   Container,
   Form,
   FormGroup,
@@ -104,11 +102,6 @@ function App() {
             iconPosition="left"
           />
         </FormGroup>
-        <ButtonGroup style={{ marginTop: 20 }}>
-          <Button>Cancel</Button>
-          <Button.Or />
-          <Button primary>Ok</Button>
-        </ButtonGroup>
       </Form>
     </Container>
   );

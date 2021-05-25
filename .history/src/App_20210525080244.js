@@ -1,6 +1,4 @@
 import {
-  Button,
-  ButtonGroup,
   Container,
   Form,
   FormGroup,
@@ -22,6 +20,7 @@ function App() {
         <Statistic.Label>State Budget : </Statistic.Label>
         <Statistic.Value>1256cr</Statistic.Value>
       </Statistic>
+      </Container>
       <Segment textAlign="center">
         <Grid columns={2}>
           <Grid.Row>
@@ -96,21 +95,9 @@ function App() {
             icon="tags"
             placeholder="New Transaction"
           />
-          <FormInput
-            width={3}
-            label="Value"
-            icon="dollar"
-            placeholder="100.00"
-            iconPosition="left"
-          />
         </FormGroup>
-        <ButtonGroup style={{ marginTop: 20 }}>
-          <Button>Cancel</Button>
-          <Button.Or />
-          <Button primary>Ok</Button>
-        </ButtonGroup>
       </Form>
-    </Container>
+   
   );
 }
 
